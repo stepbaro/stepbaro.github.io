@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair by Bethan Louise</title>
+
+    <!-- link stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+
+    <!-- Link bootstrap -->
+    <link rel=" stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css " integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy " crossorigin="anonymous ">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="topnav icon-bar" id="myTopnav">
+        <a href="/index.html">Home</a>
+        <a href="https://www.facebook.com/hairbybethanlouise/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/hairbybethanlouise/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+    </div>
+    <div id="sectionOne">
+        <div id=container>
+           <div id="infohelp">
+                
+               Feel free to contact me using the form below if you have any questions. I'll be happy to help and will reply to you promptly.
+           </div>
+            <form id="contactform" action="//formspree.io/stepbaro@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="_replyto" placeholder="Your email">
+                <input type="hidden" name="_subject" value="Website contact" />
+                <textarea name="message" placeholder="Your message"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </div>
+
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
