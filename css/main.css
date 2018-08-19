@@ -56,14 +56,14 @@ body {
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #F6D8DC;
+    background-color: #FFF9F7;
     color: black;
 }
 
 /* Add an active class to highlight the current page */
 
 .active {
-    background-color: #F6D8DC;
+    background-color: #FFF9F7;
     color: black;
 }
 
