@@ -4,6 +4,11 @@ body {
     color: #ff99bb;
 }
 
+ul {
+    list-style: none;
+}
+
+
 
 #sectionOne {
     background: url(../images/Marble-Background1.jpg) no-repeat center center fixed;
@@ -13,14 +18,11 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
-    display: flex;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+
 }
 
 
@@ -75,12 +77,13 @@ body {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
-    } 
+    }
     .topnav a.icon {
-        float: left;
+        float: right;
         display: block;
     }
 }
